@@ -12,10 +12,6 @@
 static int midi_data_callback(uint16_t conn_handle, uint16_t attr_handle, 
                              struct ble_gatt_access_ctxt *ctxt, void *arg);
 
-static int cccd_callback(uint16_t conn_handle, uint16_t attr_handle,
-                         struct ble_gatt_access_ctxt *ctxt, void *arg);
-
-
 /* Private variables */
 
 // BLE MIDI服务的UUID (128-bit格式)
@@ -36,7 +32,6 @@ static uint16_t midi_chr_val_handle;
 
 static uint16_t midi_chr_conn_handle = 0;
 static bool midi_chr_conn_handle_inited = false;
-static bool midi_ind_status = false;
 
 // MIDI描述符的句柄
 static uint16_t midi_cccd_handle = 0; // 新增

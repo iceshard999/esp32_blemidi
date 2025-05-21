@@ -181,13 +181,6 @@ static int gap_event_handler(struct ble_gap_event *event, void *arg) {
             print_conn_desc(&desc);
 
             /* Try to update connection parameters */
-            /*
-            struct ble_gap_upd_params params = {.itvl_min = desc.conn_itvl,
-                                                .itvl_max = desc.conn_itvl,
-                                                .latency = 3,
-                                                .supervision_timeout =
-                                                    desc.supervision_timeout};
-                                                    */
             struct ble_gap_upd_params params = {
                 .itvl_min = 24,  // 30ms (24 * 1.25ms)
                 .itvl_max = 40,  // 50ms (40 * 1.25ms)
