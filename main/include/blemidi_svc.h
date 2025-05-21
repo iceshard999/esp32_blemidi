@@ -17,6 +17,7 @@
 /* Public function declarations */
 void send_midi_note_on(uint8_t note, uint8_t velocity);
 void send_midi_note_off(uint8_t note);
+
 void gatt_svr_register_cb(struct ble_gatt_register_ctxt *ctxt, void *arg);
 void gatt_svr_subscribe_cb(struct ble_gap_event *event);
 //void gatt_svr_unsubscribe_cb(struct ble_gap_event *event);
