@@ -7,7 +7,6 @@
 #include "common.h"
 #include "gap.h"
 #include "blemidi_svc.h"
-//#include "led.h"
 
 /* Library function declarations */
 void ble_store_config_init(void);
