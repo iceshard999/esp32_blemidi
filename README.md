@@ -1,7 +1,8 @@
 | Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C5 | ESP32-C6 | ESP32-C61 | ESP32-H2 | ESP32-S3 |
 | ----------------- | ----- | -------- | -------- | -------- | -------- | --------- | -------- | -------- |
 
-# BLEMIDI program build with NimBLE GATT Server
+# BLEMIDI program build with NimBLE GATT Server (DEPRECATED)
+由于NimBLE的C++版本（h2zero/esp-nimble-cpp）更方便且更适合本项目要求，本项目迁移至esp32_blemidi_cpp。此地址不再更新
 
 ## Overview
 
