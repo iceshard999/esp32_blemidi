@@ -1,2 +1,4 @@
-#dependencies:
+dependencies:
 #  espressif/led_strip: "^2.4.1"
+  h2zero/esp-nimble-cpp:
+    version: '>=2.3.0'

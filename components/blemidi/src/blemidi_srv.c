@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: Unlicense OR CC0-1.0
  */
 /* Includes */
-#include "blemidi_svc.h"
-#include "common.h"
+#include "blemidi_srv.h"
+#include "blemidi_common.h"
 //#include "led.h"
 #include "esp_mac.h"
 

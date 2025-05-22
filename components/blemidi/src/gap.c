@@ -5,8 +5,8 @@
  */
 /* Includes */
 #include "gap.h"
-#include "common.h"
-#include "blemidi_svc.h"
+#include "blemidi_common.h"
+#include "blemidi_srv.h"
 
 /* Private function declarations */
 inline static void format_addr(char *addr_str, uint8_t addr[]);

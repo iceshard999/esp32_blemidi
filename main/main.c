@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Unlicense OR CC0-1.0
  */
 /* Includes */
-#include "common.h"
+#include "blemidi_common.h"
 #include "gap.h"
-#include "blemidi_svc.h"
+#include "blemidi_srv.h"
 
 /* Library function declarations */
 void ble_store_config_init(void);
